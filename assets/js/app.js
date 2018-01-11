@@ -1,3 +1,4 @@
+//ocultar partes del sitio (menos el login)
 $(".perfilcontainer").hide()
 $(".pageini").hide()
 $(".navbarcontainer").hide()
@@ -6,10 +7,10 @@ $(".addcontact").hide()
 $(".unfollowbtn").hide()
 $(".unfollowbtn1").hide()
 $(".unfollowbtn2").hide()
-
+//document ready, carga la pag y luego tira los codigos
 $(document).ready(function(){
   $(".login").show()
-
+//cambia icono de corazón al hacer click
 $('.cora1').click(function() {
   $('.cora1').css('color', "#FA0A42");
   $(".coraz").toggleClass("glyphicon-heart glyphicon-heart-empty");
@@ -19,30 +20,30 @@ $('.cora2').click(function() {
   $('.cora2').css('color', "#FA0A42");
   $(".cora2").toggleClass("glyphicon-heart glyphicon-heart-empty");
 });
-
+//modal del sign up
 $(".send").click(function(){
   $('#signupmodal').modal('toggle')
 })
 $(".loginbtn").click(function(){
   $('#loginmodal').modal('toggle')
 })
-
+//muestra la pag de inicio al dar click al icono cabeza de gato
 $(".catico").click(function(){
   $(".pageini").show()
   $(".perfilcontainer").hide()
   $(".addcontact").hide()
 })
-
+//si no tiene una cuenta, crear una
 $(".notacc").click(function(){
   $('#loginmodal').modal('toggle')
   $('#signupmodal').modal('show');
 })
-
+//si ya tiene cuenta, registrarse
 $(".alracc").click(function(){
   $('#signupmodal').modal('toggle')
   $('#loginmodal').modal('show');
 })
-
+//muestra parte de perfil y oculta las demas
   $(".editperf").click(function(){
   $(".menuinf").show()
   $(".pageini").hide()
@@ -50,23 +51,23 @@ $(".alracc").click(function(){
   $(".perfilcontainer").show()
   $(".addcontact").hide()
 })
-
+//muestra las sugerencias de contactos y oculta el resto
 $(".icon-icon_cat-01").click(function(){
   $(".addcontact").show()
   $(".pageini").hide()
   $(".perfilcontainer").hide()
 })
-
+//en la ver movil muestra la pag de inicio y oculta el resto
 $(".homemobile").click(function(){
   $(".addcontact").hide()
   $(".pageini").show()
 })
-
+//boton de seguir contacto
 $(".followbtn").click(function(){
   $(".unfollowbtn").show()
   $(".followbtn").hide()
 })
-
+//boton de no seguir contacto
 $(".unfollowbtn").click(function(){
   $(".followbtn").show()
   $(".unfollowbtn").hide()
@@ -92,7 +93,10 @@ $(".unfollowbtn2").click(function(){
   $(".followbtn2").show()
   $(".unfollowbtn2").hide()
 })
- // Initialize Firebase
+
+/* Inicio de registro de usuario y login
+ * Initialize Firebase
+ */
   var config = {
     apiKey: "AIzaSyAd7xNUJssjA3v-i8zDfhpY6Lg3R5MGQy8",
     authDomain: "fine-climber-188103.firebaseapp.com",
@@ -207,8 +211,8 @@ user.sendEmailVerification().then(function () {
   alert("Ha ocurrido un error");
 });
 }
+//fin de login logout
 
-//modal para subir archivos
 
 //Añadir comentarios Comentarios
   $('.comment').keyup(function (e) {
