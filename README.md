@@ -31,4 +31,5 @@ Un ejemplo: a este emprendedor le presentaron un caso de una red social para qu√
 * Desplegar el producto en Github Pages
 * Opcional, si se desarrolla un login o se desea almacenar la informaci√≥n en una base de datos, usar [Firebase](https://firebase.google.com/).
 
-## Desarrollado para [Laboratoria] (http://laboratoria.la)
+## Desarrollado para
+[Laboratoria](http://www.laboratoria.la/)
