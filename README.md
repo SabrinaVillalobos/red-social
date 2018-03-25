@@ -1,10 +1,11 @@
-## Catbook
+# Catbook
 
 ¿Aburrido de que sus amigos posteen en las redes fotos de sus gatos? Catbook es la solución, red social exclusiva para gatos.
 La idea es que el usuario pueda crear un perfil de su gato y manejarlo como si del gato se tratase.
 
-![catbook](https://user-images.githubusercontent.com/31784893/37870239-faae230a-2fa6-11e8-8d83-554d1f9c3bce.png)
+![catbook-preview](https://user-images.githubusercontent.com/31784893/37870239-faae230a-2fa6-11e8-8d83-554d1f9c3bce.png)
 
+## Desarrollado para [Laboratoria] (http://laboratoria.la)
 
 ## SOBRE EL PRODUCTO
 
