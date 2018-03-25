@@ -5,8 +5,6 @@ La idea es que el usuario pueda crear un perfil de su gato y manejarlo como si d
 
 ![catbook-preview](https://user-images.githubusercontent.com/31784893/37870239-faae230a-2fa6-11e8-8d83-554d1f9c3bce.png)
 
-## Desarrollado para [Laboratoria] (http://laboratoria.la)
-
 ## SOBRE EL PRODUCTO
 
 Instagram, Snapchat, Twitter, Facebook, Twitch, Linkedin, las redes sociales han invadido nuestra vida. Las amamos, odiamos, idolatramos y muchos no podemos vivir sin ellas. Dado este contexto, un emprendedor muy visionario nos ha encargado crear una red social. No nos da mucho detalle sobre qué tipo de red social quiere, él solo nos dice que creemos la que mejor podamos y que luego lo convenzamos de que nuestra red social será la más exitosa.
@@ -32,3 +30,5 @@ Un ejemplo: a este emprendedor le presentaron un caso de una red social para qu�
 * Diseño mobile friendly
 * Desplegar el producto en Github Pages
 * Opcional, si se desarrolla un login o se desea almacenar la información en una base de datos, usar [Firebase](https://firebase.google.com/).
+
+## Desarrollado para [Laboratoria] (http://laboratoria.la)
